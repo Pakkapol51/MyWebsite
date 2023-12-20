@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Top{
+    width: 0px;
+    margin: 0 auto;
+    height: 600;
+    color: #9f9f9f;
+    
+}
+.main{
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    border-radius: 50px;
+    position: relative;
+    background-color: white;
+
+}
+.tag{
+    position:absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background: tomato;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+.body{
+
+    font-family:font-family 'Roboto', sans-serif;
+}
+
+.img{
+    height: 250px;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+   
+    
+}
+.img img {
+    width: 100%;
+}
+.content{
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height:  250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.content h3{
+    border-bottom: 1px solid #e5e5e5;
+    
+}
+.content h1{
+    margin: 1rem 0;
+}
+.content p {
+    color: #9f9f9f;
+}
+nav{
+    padding: 1%;
+    background-color: black;
+    color: #fff;
+    text-align:center;
+    font-size: 35px; 
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+.hero {
+    background-color: #f0f0f0;
+}
+.hero-con{
+    display: flex;
+}
+
+.hero-info{
+    width: 200%;
+    padding: 2rem;
+}
+.hero-info h3{
+    font-size: 2rem;
+}
+.hero-info p {
+    margin: 1rem 0 ;
+}
+
+.hero-img img{
+    padding: 2rem;
+    width: 100%;
+}
+
+.pricing{
+    background-color:#5e5e5e;
+    padding: .5rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.containerr{
+    font-size: medium;
+    
+} 
+
+
+
+.belower{
+    background: rgb(43, 42, 42);
+      
+}
+.imgg img{
+    height: 25px;
+   
+}
+
+.imgg p{
+    text-align: center;
+    
+}
+
+.texttt {font-size: 18px;
+    margin: .2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
